@@ -29,8 +29,10 @@ let busy = false;
 let complete = false;
 
 // On GitHub Pages (<owner>.github.io/<repository>) the source code is the owner's sc5p2-nx repository, and the credit
-// line names the owner.
-const owner = location.hostname.endsWith('.github.io') ? location.hostname.split('.')[0] : '';
+// line names the owner. Pages host names are lowercase: known owners are shown as they write their name.
+const OWNER_NAMES = { birografx: 'BiroGrafx' };
+const host = location.hostname.endsWith('.github.io') ? location.hostname.split('.')[0] : '';
+const owner = OWNER_NAMES[host] ?? host;
 if (owner) {
   sourceLink.href = `https://github.com/${owner}/sc5p2-nx`;
 } else {
