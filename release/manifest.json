@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "edition": "Xbox Live Arcade",
+      "version": "1.1.0",
+      "xex_sha256": "c58f4bf08a13f51203856824ff15ef70452b2336489640affe6759e0b77bf745",
+      "image_sha256": "a3f73ddf42b7a644d69c5958f0c3ecfa31d03c5b09a33add4987bb2b37bbe0f7",
+      "nro": "sc5p2.nro",
+      "nro_sha256": "51172f8bb5eb5eba8f98680e81a5edcc6aed901151edb76ed5cf35584756aa4e",
+      "nro_size": 41528286,
+      "library_sha256": "f871f3f3206b59eebb4c5a0354417774167e5784942e2b7a96c544c22888ffa1",
+      "library_size": 770604,
+      "index_sha256": "bbd858634569eef84a66023af7f7657e72fa3066113c545d1ac1328f6fa1e281",
+      "index_size": 26148,
+      "game_files": 624,
+      "game_bytes": 1772455777,
+      "game_data_fnv": "20ced595c0344993",
+      "shaders": {
+        "folder": "ch52_g/ShaderXbox360",
+        "templates": { "ps": "SimpleMultiModel.wpu", "vs": "BillBoard.wvu" },
+        "wrap": [
+          { "stage": "vs", "offset": 47408, "size": 96 },
+          { "stage": "ps", "offset": 51508, "size": 60 },
+          { "stage": "vs", "offset": 51632, "size": 96 },
+          { "stage": "ps", "offset": 47696, "size": 1716 },
+          { "stage": "ps", "offset": 51728, "size": 336 },
+          { "stage": "vs", "offset": 59328, "size": 60 },
+          { "stage": "ps", "offset": 54164, "size": 60 },
+          { "stage": "vs", "offset": 45840, "size": 96 },
+          { "stage": "vs", "offset": 51568, "size": 60 },
+          { "stage": "ps", "offset": 45936, "size": 36 },
+          { "stage": "vs", "offset": 65400, "size": 108 },
+          { "stage": "ps", "offset": 49412, "size": 36 },
+          { "stage": "vs", "offset": 51400, "size": 108 }
+        ],
+        "patch": [],
+        "containers_sha256": "2a9969eaef63f043756b45c4384a4c5b42be53c1d576ca3fdaf3556e8e84fb3a"
+      }
+    }
+  ]
+}
